@@ -5,11 +5,15 @@ void main(){
 
 // membuat list of string
 
-var names = <String>[];
+var names = <String>[
+  'eko'
+  'andi'
+  'tono'
+];
 
-names.add('eko');
-names.add('Kurniawan');
-names.add('Khannedy');
+//names.add('eko');
+//names.add('Kurniawan');
+//names.add('Khannedy');
 
 print(names);
 print(names.length);
@@ -20,7 +24,7 @@ print(names[1]);
 names[0] = 'budi';
 print(names[0]);
 
-names.removeAt(1)
+names.removeAt(1);
 print(names);
 print(names[1]);
 
