@@ -6,8 +6,8 @@ void main(){
 // membuat list of string
 
 var names = <String>[
-  'eko'
-  'andi'
+  'eko',
+  'andi',
   'tono'
 ];
 
