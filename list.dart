@@ -14,6 +14,14 @@ names.add('Khannedy');
 print(names);
 print(names.length);
 
+print(names[0]);
+print(names[1]);
 
+names[0] = 'budi';
+print(names[0]);
+
+names.removeAt(1)
+print(names);
+print(names[1]);
 
 }
