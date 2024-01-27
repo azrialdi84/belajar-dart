@@ -7,4 +7,13 @@ List<int> ListInt =[];
 
 var ListString = <String>[];
 
+names.add('eko');
+names.add('Kurniawan');
+names.add('Khannedy');
+
+print(names);
+print(names.lenght);
+
+
+
 }
