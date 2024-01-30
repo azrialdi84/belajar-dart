@@ -1,4 +1,4 @@
-void main(List<String> args) {
+void main() {
   
   var nilai ='D';
 

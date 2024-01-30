@@ -32,5 +32,5 @@ void main(){
 
   // factorialRecursive(10) // fac(10) => 10 * fac(9) => 10 * 9 * fac(8) =>
 
-  loop(100000);
+  loop(50);
 }

@@ -1,13 +1,10 @@
 
-// int sum(int first, int second){
-//   return first + second;
-// }
 
 int sum(int first, int second) => first + second;
 
 void main(){
-  var total = sum(10, 10);
+  var total = sum(60, 10);
   print(total);
 
-  print(sum(5, 5));
+  print(sum(35, 5));
 }

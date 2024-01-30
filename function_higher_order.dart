@@ -4,7 +4,7 @@ void sayHello(String name, String Function(String) filter) {
 }
 
 String filterBadWord(String name) {
-  if (name == "gila") {
+  if (name == "parah") {
     return "****";
   } else {
     return name;
@@ -12,6 +12,6 @@ String filterBadWord(String name) {
 }
 
 void main(){
-  sayHello('Eko', filterBadWord);
-  sayHello('gila', filterBadWord);
+  sayHello('Sandi', filterBadWord);
+  sayHello('parah', filterBadWord);
 }

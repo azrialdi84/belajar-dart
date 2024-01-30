@@ -13,10 +13,10 @@ int sum(List<int> numbers){
 }
 
 void main(){
-  var data = sayHello('Eko');
+  var data = sayHello('Azrialdi');
   print(data);
 
-  var total = sum([10,10,10,10,10]);
+  var total = sum([30,10,10,10,10]);
   print(total);
 
   print(sum([5,5,5,5,5]));
